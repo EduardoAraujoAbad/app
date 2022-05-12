@@ -31,6 +31,7 @@
         >
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_input"
             style="@style/userlayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/user_layout"
-
+        app:passwordToggleEnabled="true"
         app:startIconDrawable="@drawable/ic_key_fill">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -54,6 +55,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
+            android:inputType="textPassword"
+            android:id="@+id/password_input"
+
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -65,6 +69,7 @@
         android:background="@drawable/boton_redondo"
         android:backgroundTint="@color/montana"
         tools:ignore="MissingConstraints"
+
         style="@style/button">
 
     </Button>
