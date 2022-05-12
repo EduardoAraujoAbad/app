@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable-night/colorgradient.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable-night/style.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/boton_redondo.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/colorgradient.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/ic__536016414.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/ic__536016414__1_.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/ic_fondo.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/ic_key_fill.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/ic_simple_shiny.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/ic_svg.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/ic_svg_1.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/drawable/style.xml" value="0.2125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/app/app/src/main/res/layout/activity_main.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

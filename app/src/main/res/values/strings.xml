@@ -1,0 +1,9 @@
+<resources>
+
+        <string name="app_name">DeliveryEduardo</string>
+        <string name="user">Usuario</string>
+        <string name="password">Contrasena</string>
+        <string name="login">Log-in</string>
+        <string name="ingresar">Log In</string>
+
+</resources>

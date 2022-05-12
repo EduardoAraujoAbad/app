@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--dimension text-->
+    <dimen name="top_border">100dip</dimen>
+    <dimen name="border_left_right">45dip</dimen>
+    <dimen name="text_height">35dip</dimen>
+    <dimen name="caja_texto_height">50dip</dimen>
+    <dimen name="caja_texto_width">200dip</dimen>
+
+
+    <!--dimension botones-->
+    <dimen name="button_height">50dip</dimen>
+    <dimen name="button_width">150dip</dimen>
+    <dimen name="text_button_height">20dip</dimen>
+    <dimen name="button_top_border">100dip</dimen>
+    <dimen name="button_border_left_right">200dip</dimen>
+
+    <!--dimension img-->
+    <dimen name="img_height">35dip</dimen>
+    <dimen name="img_width">30dip</dimen>
+    <!--dimension img fondo-->
+
+
+    <dimen name="img_height_fondo">350dip</dimen>
+    <dimen name="img_width_fondo">30dip</dimen>
+    <dimen name="margin_bot_fondo">-75dip</dimen>
+
+    <!---Font weight -->
+    <dimen name="font_weight">200</dimen>
+</resources>
+
+
