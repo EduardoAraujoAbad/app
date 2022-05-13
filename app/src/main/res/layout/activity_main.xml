@@ -27,7 +27,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/login"
         app:startIconDrawable="@drawable/ic_user_tie"
+        app:startIconTint="@color/black"
         android:layout_marginTop="@dimen/img_height"
+        android:textColorHint="@color/black"
+
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -48,7 +51,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/user_layout"
         app:passwordToggleEnabled="true"
-        app:startIconDrawable="@drawable/ic_key_fill">
+        app:startIconDrawable="@drawable/ic_key_fill"
+        android:textColorHint="@color/black"
+        app:passwordToggleTint="@color/black"
+        app:startIconTint="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
             style="@style/passwordlayout"
