@@ -11,20 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".principal.Principal">
-        <TextView
-            style="@style/username"
-            android:id="@+id/username"
-
+        <ImageView
+            android:id="@+id/userimage"
+            style="@style/userimage"
             tools:ignore="MissingConstraints">
 
-        </TextView>
+        </ImageView>
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/user_layout_principal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColorHint="@color/black"
-            app:layout_constraintTop_toBottomOf="@id/username"
-            tools:ignore="MissingConstraints">
+            app:layout_constraintTop_toBottomOf="@id/userimage"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="@dimen/text_height">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/user_input_principal"
@@ -36,9 +36,88 @@
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nombre_layout_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/user_layout_principal"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="@dimen/text_height">
 
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nombre_input_principal"
+                style="@style/nombre_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
 
+                />
+        </com.google.android.material.textfield.TextInputLayout>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/apellido_layout_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/nombre_layout_principal"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="@dimen/text_height">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/apellido_input_principal"
+                style="@style/surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phone_layout_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/apellido_layout_principal"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="@dimen/text_height">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone_input_principal"
+                style="@style/telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/mail_layout_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/phone_layout_principal"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="@dimen/text_height">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mail_input_principal"
+                style="@style/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_principal"
+            style="@style/btn_principal"
+            tools:ignore="MissingConstraints">
+
+        </Button>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

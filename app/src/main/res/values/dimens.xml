@@ -21,7 +21,7 @@
     <!--dimension img fondo-->
 
 
-    <dimen name="img_height_fondo">350dip</dimen>
+    <dimen name="img_height_fondo">250dip</dimen>
     <dimen name="img_width_fondo">30dip</dimen>
     <dimen name="margin_bot_fondo">-75dip</dimen>
 

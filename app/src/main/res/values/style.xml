@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="layout">
         <item name="android:background">@drawable/colorgradient</item>
 
@@ -47,14 +48,37 @@
 
     </style>
 
-    <style name="username">
+    <style name="userimage" parent="txt_login">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:text">@string/username</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">@dimen/text_height</item>
-        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="android:layout_height">@dimen/img_height_fondo</item>
+        <item name="android:layout_marginLeft">@dimen/border_left_right</item>
+        <item name="android:layout_marginRight">@dimen/border_left_right</item>
         <item name="android:layout_marginTop">@dimen/text_height</item>
+
+    </style>
+    <style name="nombre_usuario" parent="txt_login">
+        <item name="android:hint">@string/name</item>
+        <item name="android:inputType">textPersonName</item>
+    </style>
+    <style name="surname" parent="txt_login">
+        <item name="android:hint">@string/surname</item>
+        <item name="android:inputType">textPersonName</item>
+    </style>
+    <style name="telefono" parent="txt_login">
+        <item name="android:hint">@string/phone_number</item>
+        <item name="android:inputType">phone</item>
+    </style>
+    <style name="email" parent="txt_login">
+        <item name="android:hint">@string/e_mail</item>
+        <item name="android:inputType">textEmailAddress</item>
     </style>
 
+    <style name="btn_principal" parent="button">
+        <item name="android:layout_marginTop">@dimen/text_height</item>
+        <item name="layout_constraintTop_toBottomOf">@id/mail_layout_principal</item>
+        <item name="layout_constraintRight_toRightOf">@id/mail_layout_principal</item>
+        <item name="layout_constraintLeft_toLeftOf">@id/mail_layout_principal</item>
+        <item name="android:text">@string/accept</item>
+        <item name="android:background">@drawable/boton_redondo</item>
+    </style>
 </resources>
