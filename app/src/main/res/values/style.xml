@@ -2,7 +2,7 @@
 <resources>
 
     <style name="layout">
-        <item name="android:background">@drawable/colorgradient</item>
+        <item name="android:background">@drawable/gradient_list</item>
 
     </style>
 
