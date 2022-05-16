@@ -23,6 +23,8 @@ class Principal : AppCompatActivity() {
         animationDrawable.setEnterFadeDuration(2000)
         animationDrawable.setExitFadeDuration(4000)
         animationDrawable.start()
+
+
     }
     private fun showName(intent: Intent){
         val username = intent.getStringExtra("name_user")
