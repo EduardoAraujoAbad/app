@@ -32,7 +32,9 @@
             android:textColorHint="@color/black"
             app:layout_constraintTop_toBottomOf="@id/btn_profilepicture"
             tools:ignore="MissingConstraints"
-            android:layout_marginTop="@dimen/text_height">
+            android:layout_marginTop="@dimen/text_height"
+            app:startIconDrawable="@drawable/ic_user_tie"
+            app:startIconTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/user_input_principal"
@@ -51,7 +53,9 @@
             android:textColorHint="@color/black"
             app:layout_constraintTop_toBottomOf="@id/user_layout_principal"
             tools:ignore="MissingConstraints"
-            android:layout_marginTop="@dimen/text_height">
+            android:layout_marginTop="@dimen/text_height"
+            app:startIconDrawable="@drawable/ic_address_book"
+            app:startIconTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/nombre_input_principal"
@@ -70,7 +74,9 @@
             android:textColorHint="@color/black"
             app:layout_constraintTop_toBottomOf="@id/nombre_layout_principal"
             tools:ignore="MissingConstraints"
-            android:layout_marginTop="@dimen/text_height">
+            android:layout_marginTop="@dimen/text_height"
+            app:startIconDrawable="@drawable/ic_address_book"
+            app:startIconTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/apellido_input_principal"
@@ -89,7 +95,9 @@
             android:textColorHint="@color/black"
             app:layout_constraintTop_toBottomOf="@id/apellido_layout_principal"
             tools:ignore="MissingConstraints"
-            android:layout_marginTop="@dimen/text_height">
+            android:layout_marginTop="@dimen/text_height"
+            app:startIconDrawable="@drawable/ic_mobile"
+            app:startIconTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/phone_input_principal"
@@ -108,7 +116,9 @@
             android:textColorHint="@color/black"
             app:layout_constraintTop_toBottomOf="@id/phone_layout_principal"
             tools:ignore="MissingConstraints"
-            android:layout_marginTop="@dimen/text_height">
+            android:layout_marginTop="@dimen/text_height"
+            app:startIconDrawable="@drawable/ic_envelop"
+            app:startIconTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mail_input_principal"
