@@ -81,16 +81,16 @@
 
     </Button>
 
-    <ImageView
+   <!-- <ImageView
         android:id="@+id/img_bg"
         style="@style/image_bg"
         app:srcCompat="@drawable/ic__536016414__1_"
-        tools:ignore="MissingConstraints"
+      tools:ignore="MissingConstraints"
         app:tint="@color/white"
         android:tintMode="multiply"
         >
 
-    </ImageView>
+   </ImageView>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

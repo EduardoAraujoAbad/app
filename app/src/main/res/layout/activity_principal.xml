@@ -7,6 +7,7 @@
     android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/principal_layout"
         style="@style/layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -117,6 +118,7 @@
         <Button
             android:id="@+id/btn_principal"
             style="@style/btn_principal"
+            android:backgroundTint="@color/montana"
             tools:ignore="MissingConstraints">
 
         </Button>
