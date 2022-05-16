@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">DeliveryEduardo</string>
+    <string name="user">Ussername</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log-in</string>
+    <string name="ingresar">Log In</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="e_mail">Email</string>
+    <string name="accept">Accept</string>
+
+</resources>
