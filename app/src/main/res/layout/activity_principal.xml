@@ -16,7 +16,7 @@
             android:id="@+id/userimage"
             style="@style/userimage"
             tools:ignore="MissingConstraints"
-            android:src="@drawable/ic_user_tie"
+
             >
 
         </ImageView>
