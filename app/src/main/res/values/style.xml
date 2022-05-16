@@ -82,4 +82,10 @@
         <item name="android:text">@string/accept</item>
         <item name="android:background">@drawable/boton_redondo</item>
     </style>
+    <style name="btn_profilepicture" parent="btn_principal">
+        <item name="layout_constraintTop_toBottomOf">@id/userimage</item>
+        <item name="layout_constraintRight_toRightOf">@id/userimage</item>
+        <item name="layout_constraintLeft_toLeftOf">@id/userimage</item>
+        <item name="android:text">Cambiar</item>
+    </style>
 </resources>
