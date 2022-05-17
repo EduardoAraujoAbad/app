@@ -12,5 +12,6 @@
     <string name="accept">Aceptar</string>
     <string name="allow_permission">Necesitas habilitar los permisos</string>
     <string name="change">Cambiar</string>
+    <string name="incorrect">Usuario y/o Contrasena incorrectos</string>
 
 </resources>

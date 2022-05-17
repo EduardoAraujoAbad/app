@@ -12,4 +12,6 @@
     <string name="accept">Accept</string>
     <string name="allow_permission">You need to allow permissions</string>
     <string name="change">Change</string>
+    <string name="incorrect">User and/or Password are incorrect</string>
+
 </resources>

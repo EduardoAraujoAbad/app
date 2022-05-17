@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         initializationListeners()
         setContentView(views.root)
         initializeAnimation()
-        //val constraintLayout = views.mainLayout //views.root
+        
 
 
 
@@ -41,8 +41,11 @@ class MainActivity : AppCompatActivity() {
 
             userText?.let {
                 passwordText.let { itp ->
-                    if (it.equals("edu") && itp.equals("1234"))
+                    if (it.equals("edu") && itp.equals("1234")) {
                         goToPrincipal(userText)
+                    }else{
+                        Toast.makeText(this, resources.getText(R.string.incorrect), Toast.LENGTH_SHORT).show()
+                    }
                 }
             }
         }

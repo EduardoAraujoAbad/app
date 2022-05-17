@@ -35,8 +35,7 @@
     <dimen name="img_width_fondo_principal">30dip</dimen>
     <dimen name="margin_bot_fondo_principal">-75dip</dimen>
 
-    <!--dimension img alpha-->
-    <dimen name="alpha">0.4</dimen>
+
 
 </resources>
 
