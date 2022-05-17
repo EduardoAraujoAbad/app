@@ -2,5 +2,5 @@
 <resources>
     <integer name="start_fade">2000</integer>
     <integer name="end_fade">4000</integer>
-
+    <integer name="max_lines">1</integer>
 </resources>

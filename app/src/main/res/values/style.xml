@@ -38,6 +38,8 @@
         <item name="android:background">@color/transparent</item>
         <item name="android:text">@null</item>
         <item name="android:textAlignment">inherit</item>
+        <item name="android:maxLines">@integer/max_lines</item>
+        <item name="android:inputType">textPersonName</item>
 
 
     </style>
@@ -111,6 +113,7 @@
         <item name="android:background">@color/transparent</item>
         <item name="android:text">@null</item>
         <item name="android:textAlignment">inherit</item>
+        <item name="android:maxLines">@integer/max_lines</item>
     </style>
 
     <style name="surname_layout_principal" parent="nombre_usuario_layout">
@@ -124,6 +127,7 @@
         <item name="android:background">@color/transparent</item>
         <item name="android:text">@null</item>
         <item name="android:textAlignment">inherit</item>
+        <item name="android:maxLines">@integer/max_lines</item>
     </style>
     <style name="phone_layout" parent="nombre_usuario_layout">
         <item name="layout_constraintTop_toBottomOf">@id/apellido_layout_principal</item>
@@ -147,6 +151,7 @@
         <item name="android:background">@color/transparent</item>
         <item name="android:text">@null</item>
         <item name="android:textAlignment">inherit</item>
+        <item name="android:maxLines">@integer/max_lines</item>
     </style>
 
     <style name="btn_principal" parent="button">
