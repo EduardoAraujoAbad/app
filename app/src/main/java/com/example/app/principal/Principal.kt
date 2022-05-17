@@ -24,20 +24,22 @@ class Principal : AppCompatActivity() {
         views= ActivityPrincipalBinding.inflate(layoutInflater)
         setContentView(views.root)
         showName(intent)
-
-        val constraintLayout = findViewById<ConstraintLayout>(R.id.principal_layout)
-        val animationDrawable: AnimationDrawable =constraintLayout.background as AnimationDrawable
-        animationDrawable.setEnterFadeDuration(2000)
-        animationDrawable.setExitFadeDuration(4000)
-        animationDrawable.start()
-
+        initializeAnimation()
         views.btnProfilepicture.setOnClickListener{ requestPermissions() }
 
     }
 
+    private fun initializeAnimation() {
+
+        val animationDrawable: AnimationDrawable =views.principalLayout.background as AnimationDrawable
+        animationDrawable.setEnterFadeDuration(resources.getInteger(R.integer.start_fade))
+        animationDrawable.setExitFadeDuration(resources.getInteger(R.integer.end_fade))
+        animationDrawable.start()
+    }
+
     private fun requestPermissions() {
 
-        if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.R){
+        if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.M){
             when{
                 ContextCompat.checkSelfPermission(
                    this,
@@ -49,7 +51,7 @@ class Principal : AppCompatActivity() {
 
             }
         }else{
-            pickPhotoFromGallery()
+            pickPhotoFromGallery()//mejorar logica
         }
     }
 
@@ -59,7 +61,7 @@ class Principal : AppCompatActivity() {
         if (isGranted){
             pickPhotoFromGallery()
         }else{
-            Toast.makeText(this,"Necesitas habilitar los permisos",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,resources.getText(R.string.allow_permission),Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -68,7 +70,7 @@ class Principal : AppCompatActivity() {
     ){ result->
         if (result.resultCode == Activity.RESULT_OK){
             val data = result.data?.data
-            views.userimage.setImageURI(data)
+            views.userImage.setImageURI(data)
         }
     }
 

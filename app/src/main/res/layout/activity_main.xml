@@ -1,98 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true">
-
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:id="@+id/main_layout"
-    style="@style/layout"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".MainActivity"
-
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollview"
     >
-    <TextView
-        android:id="@+id/login"
-        style="@style/txt_login"
-        android:text="@string/login"
-        android:textAlignment="center"
-        tools:ignore="MissingConstraints">
-    </TextView>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/user_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/login"
-        app:startIconDrawable="@drawable/ic_user_tie"
-        app:startIconTint="@color/black"
-        android:layout_marginTop="@dimen/img_height"
-        android:textColorHint="@color/black"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_layout"
+        style="@style/layout"
+        tools:context=".MainActivity"
 
         >
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/user_input"
-            style="@style/userlayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/transparent"
+        <TextView
+            android:id="@+id/login"
+            style="@style/txt_login"
+            tools:ignore="MissingConstraints"></TextView>
 
-            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/user_layout"
+            style="@style/nombre_usuario_layout"
+            app:layout_constraintTop_toBottomOf="@id/login"
+            tools:ignore="MissingConstraints">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_input"
+                style="@style/user_input"
+                />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/password_layout"
-        android:layout_marginTop="@dimen/button_height"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/user_layout"
-        app:passwordToggleEnabled="true"
-        app:startIconDrawable="@drawable/ic_key_fill"
-        android:textColorHint="@color/black"
-        app:passwordToggleTint="@color/black"
-        app:startIconTint="@color/black">
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputEditText
-            style="@style/passwordlayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/transparent"
-            android:inputType="textPassword"
-            android:id="@+id/password_input"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_layout"
+            style="@style/password_layout"
+            tools:ignore="MissingConstraints">
 
-            />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password_input"
+                style="@style/password_input"
+                />
 
-    </com.google.android.material.textfield.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
-        android:id="@+id/button"
+        <Button
+            android:id="@+id/button"
+            style="@style/button"
+            tools:ignore="MissingConstraints">
+        </Button>
 
-        android:text="@string/ingresar"
-        android:background="@drawable/boton_redondo"
-        android:backgroundTint="@color/montana"
-        tools:ignore="MissingConstraints"
+        <ImageView
+             android:id="@+id/img_background"
+             style="@style/image_bg"
+            tools:ignore="MissingConstraints"
+             >
 
-        style="@style/button">
+        </ImageView>
 
-    </Button>
-
-   <!-- <ImageView
-        android:id="@+id/img_bg"
-        style="@style/image_bg"
-        app:srcCompat="@drawable/ic__536016414__1_"
-      tools:ignore="MissingConstraints"
-        app:tint="@color/white"
-        android:tintMode="multiply"
-        >
-
-   </ImageView>-->
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </ScrollView>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="azul1">#793d06</color>
-    <color name="azul2">#160d04</color>
     <color name="letras">#e7dfd1</color>
-    <color name="azul3">#8c5745</color>
     <color name="white">#B0B1B0</color>
-    <color name="montana">#4d727f</color>
-    <color name="black">#ffffff</color>
+
     <color name="purple_700">#c8ff4c</color>
-    <color name="turqueza">#c07770</color>
     <color name="teal_700">#fe7879</color>
+    <color name="magenta">#2E0249</color>
+    <color name="mora">#570A57</color>
+    <color name="light_geen">#F9CEEE</color>
+    <color name="ultra_light_green">#F9F3EE</color>
+    <color name="rose">#65C18C</color>
+    <color name="tiny_rose">#C1F4C5</color>
 </resources>

@@ -1,42 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Estilos Main Layout-->
 
     <style name="layout">
         <item name="android:background">@drawable/gradient_list</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="scrollview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fillViewport">true</item>
 
     </style>
 
     <style name="txt_login">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:textColor">@color/letras</item>
+        <item name="android:textColor">@color/black</item>
         <item name="layout_constraintTop_toTopOf">parent</item>
         <item name="android:layout_marginTop">@dimen/top_border</item>
         <item name="android:layout_marginLeft">@dimen/border_left_right</item>
         <item name="android:layout_marginRight">@dimen/border_left_right</item>
         <item name="android:textSize">@dimen/text_height</item>
+        <item name="android:text">@string/login</item>
+        <item name="android:textAlignment">center</item>
 
     </style>
 
-    <style name="userlayout" parent="txt_login">
+    <style name="user_input" parent="txt_login">
         <item name="android:layout_marginTop">@dimen/text_height</item>
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:hint">@string/user</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:text">@null</item>
+        <item name="android:textAlignment">inherit</item>
 
 
     </style>
+    <style name="password_layout" parent="nombre_usuario_layout">
+        <item name="layout_constraintTop_toBottomOf">@id/user_layout</item>
+        <item name="android:layout_marginTop">@dimen/button_height</item>
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleTint">@color/black</item>
+        <item name="startIconDrawable">@drawable/ic_key_fill</item>
 
-    <style name="passwordlayout" parent="userlayout">
+    </style>
+    <style name="password_input" parent="user_input">
         <item name="layout_constraintTop_toBottomOf">@id/user_layout</item>
         <item name="android:hint">@string/password</item>
+        <item name="background">@color/transparent</item>
+        <item name="android:inputType">textPassword</item>
 
     </style>
 
     <style name="image_bg">
-        <item name="android:scaleType">fitEnd</item>
+        <item name="android:scaleType">matrix</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="android:layout_height">@dimen/img_height_fondo</item>
+        <item name="android:background">@drawable/ic_radiant_gradient</item>
+        <item name="android:alpha">0.5</item>
+
     </style>
 
     <style name="button">
@@ -46,32 +73,80 @@
         <item name="android:layout_height">@dimen/button_height</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/top_border</item>
+        <item name="android:text">@string/login</item>
+        <item name="android:background">@drawable/boton_redondo</item>
+
 
     </style>
 
-    <style name="userimage" parent="txt_login">
+    <!-- Estilos Principal Layout-->
+
+    <style name="user_image" parent="txt_login">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/img_height_fondo</item>
+        <item name="android:layout_height">@dimen/img_height</item>
         <item name="android:layout_marginLeft">@dimen/border_left_right</item>
         <item name="android:layout_marginRight">@dimen/border_left_right</item>
         <item name="android:layout_marginTop">@dimen/text_height</item>
+        <item name="android:text">@null</item>
+        <item name="android:textAlignment">inherit</item>
+    </style>
 
+    <style name="nombre_usuario_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="layout_constraintTop_toBottomOf">@id/btn_profilepicture</item>
+        <item name="android:layout_marginTop">@dimen/text_height</item>
+        <item name="startIconDrawable">@drawable/ic_user_tie</item>
+        <item name="startIconTint">@color/black</item>
+
+    </style>
+    <style name="nombre_layout_principal" parent="nombre_usuario_layout">
+        <item name="layout_constraintTop_toBottomOf">@id/user_layout_principal</item>
+        <item name="startIconDrawable">@drawable/ic_address_book</item>
     </style>
     <style name="nombre_usuario" parent="txt_login">
         <item name="android:hint">@string/name</item>
         <item name="android:inputType">textPersonName</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:text">@null</item>
+        <item name="android:textAlignment">inherit</item>
     </style>
+
+    <style name="surname_layout_principal" parent="nombre_usuario_layout">
+        <item name="layout_constraintTop_toBottomOf">@id/nombre_layout_principal</item>
+        <item name="startIconDrawable">@drawable/ic_address_book</item>
+    </style>
+
     <style name="surname" parent="txt_login">
         <item name="android:hint">@string/surname</item>
         <item name="android:inputType">textPersonName</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:text">@null</item>
+        <item name="android:textAlignment">inherit</item>
+    </style>
+    <style name="phone_layout" parent="nombre_usuario_layout">
+        <item name="layout_constraintTop_toBottomOf">@id/apellido_layout_principal</item>
+        <item name="startIconDrawable">@drawable/ic_mobile</item>
+
     </style>
     <style name="telefono" parent="txt_login">
         <item name="android:hint">@string/phone_number</item>
         <item name="android:inputType">phone</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:text">@null</item>
+        <item name="android:textAlignment">inherit</item>
+    </style>
+    <style name="email_layout_principal" parent="nombre_usuario_layout">
+        <item name="layout_constraintTop_toBottomOf">@id/phone_layout_principal</item>
+        <item name="startIconDrawable">@drawable/ic_envelop</item>
     </style>
     <style name="email" parent="txt_login">
         <item name="android:hint">@string/e_mail</item>
         <item name="android:inputType">textEmailAddress</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:text">@null</item>
+        <item name="android:textAlignment">inherit</item>
     </style>
 
     <style name="btn_principal" parent="button">
@@ -83,9 +158,12 @@
         <item name="android:background">@drawable/boton_redondo</item>
     </style>
     <style name="btn_profilepicture" parent="btn_principal">
-        <item name="layout_constraintTop_toBottomOf">@id/userimage</item>
-        <item name="layout_constraintRight_toRightOf">@id/userimage</item>
-        <item name="layout_constraintLeft_toLeftOf">@id/userimage</item>
-        <item name="android:text">Cambiar</item>
+        <item name="layout_constraintTop_toBottomOf">@id/user_image</item>
+        <item name="layout_constraintRight_toRightOf">@id/user_image</item>
+        <item name="layout_constraintLeft_toLeftOf">@id/user_image</item>
+        <item name="android:text">@string/change</item>
+    </style>
+    <style name="image_bg_principal" parent="image_bg">
+        <item name="android:layout_height">@dimen/img_height_fondo_principal</item>
     </style>
 </resources>

@@ -8,6 +8,8 @@ import android.widget.Toast
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.app.databinding.ActivityMainBinding
 import com.example.app.principal.Principal
+import kotlin.math.absoluteValue
+import kotlin.time.Duration.Companion.milliseconds
 
 class MainActivity : AppCompatActivity() {
     private lateinit var views: ActivityMainBinding
@@ -17,15 +19,19 @@ class MainActivity : AppCompatActivity() {
         views = ActivityMainBinding.inflate(layoutInflater)
         initializationListeners()
         setContentView(views.root)
+        initializeAnimation()
+        //val constraintLayout = views.mainLayout //views.root
 
-        val constraintLayout = findViewById<ConstraintLayout>(R.id.main_layout)
-        val animationDrawable:AnimationDrawable=constraintLayout.background as AnimationDrawable
-        animationDrawable.setEnterFadeDuration(2000)
-        animationDrawable.setExitFadeDuration(4000)
+
+
+
+    }
+
+    private fun initializeAnimation() {
+        val animationDrawable:AnimationDrawable=views.mainLayout.background as AnimationDrawable
+        animationDrawable.setEnterFadeDuration(resources.getInteger(R.integer.start_fade)) //resources.dimens
+        animationDrawable.setExitFadeDuration(resources.getInteger(R.integer.end_fade))
         animationDrawable.start()
-
-
-
     }
 
     private fun initializationListeners() {

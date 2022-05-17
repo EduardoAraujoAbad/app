@@ -16,17 +16,28 @@
     <dimen name="button_border_left_right">200dip</dimen>
 
     <!--dimension img-->
-    <dimen name="img_height">35dip</dimen>
+    <dimen name="img_height">300dip</dimen>
     <dimen name="img_width">30dip</dimen>
     <!--dimension img fondo-->
 
 
-    <dimen name="img_height_fondo">250dip</dimen>
+    <dimen name="img_height_fondo">900dp</dimen>
     <dimen name="img_width_fondo">30dip</dimen>
     <dimen name="margin_bot_fondo">-75dip</dimen>
 
     <!---Font weight -->
     <dimen name="font_weight">200</dimen>
+
+    <!--dimension img fondo principal-->
+
+
+    <dimen name="img_height_fondo_principal">1000dip</dimen>
+    <dimen name="img_width_fondo_principal">30dip</dimen>
+    <dimen name="margin_bot_fondo_principal">-75dip</dimen>
+
+    <!--dimension img alpha-->
+    <dimen name="alpha">0.4</dimen>
+
 </resources>
 
 

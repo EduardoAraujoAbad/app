@@ -8,15 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="cian">#00FFFF</color>
-    <color name="turqueza">#3f888f</color>
-    <color name="azul1">#86c2f9</color>
-    <color name="azul2">#E9f2fb</color>
-    <color name="azul3">#73a8ba</color>
     <color name="letras">#18202e</color>
     <color name="transparent">#00000000</color>
-    <color name="azulahora"> #96d8cd </color>
-    <color name="azulimg">#addddd</color>
-    <color name="montana">#6ea5ba</color>
+    <color name="magenta">#F806CC</color>
+    <color name="mora">#A91079</color>
+    <color name="light_geen">#97C4B8</color>
+    <color name="ultra_light_green">#CCF3EE</color>
+    <color name="rose">#FF7BA9</color>
+    <color name="tiny_rose">#FFBED8</color>
 
 
 </resources>

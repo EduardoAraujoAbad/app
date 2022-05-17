@@ -5,11 +5,12 @@
     <string name="username">Nombre de usuario</string>
     <string name="password">Contrasena</string>
     <string name="login">Log-in</string>
-    <string name="ingresar">Log In</string>
     <string name="name">Nombre</string>
     <string name="surname">Apellido</string>
     <string name="phone_number">Telefono</string>
     <string name="e_mail">Correo</string>
     <string name="accept">Aceptar</string>
+    <string name="allow_permission">Necesitas habilitar los permisos</string>
+    <string name="change">Cambiar</string>
 
 </resources>
