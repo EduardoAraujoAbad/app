@@ -63,8 +63,9 @@
         <item name="android:scaleType">matrix</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/img_height_fondo</item>
-        <item name="android:background">@drawable/ic_radiant_gradient</item>
+        <item name="android:background">@drawable/ic_radiant_gradient__1_</item>
         <item name="android:alpha">0.4</item>
+
 
     </style>
 
