@@ -16,6 +16,14 @@
     <color name="ultra_light_green">#CCF3EE</color>
     <color name="rose">#FF7BA9</color>
     <color name="tiny_rose">#FFBED8</color>
+    <color name="morado_r76">#980F5A</color>
+    <color name="morado_r152">#4C0027</color>
+    <color name="grey">#EEEEEE</color>
+    <color name="azul_marino">#0F044C</color>
+    <color name="skin_color">#EAB9C9</color>
+    <color name="grey_blue">#413C69</color>
+
+
 
 
 </resources>

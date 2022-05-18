@@ -2,7 +2,6 @@
 <resources>
     <color name="letras">#e7dfd1</color>
     <color name="white">#B0B1B0</color>
-
     <color name="purple_700">#c8ff4c</color>
     <color name="teal_700">#fe7879</color>
     <color name="magenta">#2E0249</color>
@@ -11,4 +10,10 @@
     <color name="ultra_light_green">#F9F3EE</color>
     <color name="rose">#65C18C</color>
     <color name="tiny_rose">#C1F4C5</color>
+    <color name="morado_r76">#750550</color>
+    <color name="morado_r152">#570530</color>
+    <color name="grey">#787A91</color>
+    <color name="azul_marino">#141E61</color>
+    <color name="skin_color">#AD62AA</color>
+    <color name="grey_blue">#4A47A3</color>
 </resources>

@@ -48,13 +48,13 @@
             tools:ignore="MissingConstraints">
         </Button>
 
-        <ImageView
+        <!--<ImageView
              android:id="@+id/img_background"
              style="@style/image_bg"
             tools:ignore="MissingConstraints"
              >
 
-        </ImageView>
+        </ImageView>-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

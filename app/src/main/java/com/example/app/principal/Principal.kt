@@ -29,6 +29,10 @@ class Principal : AppCompatActivity() {
 
     }
 
+
+
+
+
     private fun initializeAnimation() {
 
         val animationDrawable: AnimationDrawable =views.principalLayout.background as AnimationDrawable

@@ -86,12 +86,12 @@
 
         </Button>
 
-        <ImageView
+        <!--<ImageView
             android:id="@+id/img_background_principal"
             style="@style/image_bg_principal"
             tools:ignore="MissingConstraints"
             >
-        </ImageView>
+        </ImageView>-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
